@@ -1,16 +1,23 @@
-# github_search
 
-A new Flutter project.
+# GitHub Search app
 
-## Getting Started
+GitHub Search project with GraphQL and REST APIs(two implementations)
 
-This project is a starting point for a Flutter application.
+## Guides
 
-A few resources to get you started if this is your first Flutter project:
+- Ability to change data provider(`REST/GraphQL`):
+```dart
+class MainConfigApp {
+  ...
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+  static const DataSourceType dataSourceType = DataSourceType.graphQL;//or rest
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  ...
+}
+```
+- All credentials in one place
+```dart
+class CredentialsData{
+    ...
+}
+```
