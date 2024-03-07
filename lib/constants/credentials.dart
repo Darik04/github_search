@@ -6,5 +6,5 @@ class CredentialsData{
   static String appleRedirectURLForAndroid = 'https://generated-river-geography.glitch.me/callbacks/sign_in_with_apple';
 
 
-  static String githubAccessToken = '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';
+  static String githubAccessToken = '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';
 }
